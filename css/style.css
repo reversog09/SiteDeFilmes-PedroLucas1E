@@ -127,3 +127,10 @@ h1{
 .detetivePikachu{
     padding-top: 20px;
 }
+
+
+footer{
+    justify-self: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}

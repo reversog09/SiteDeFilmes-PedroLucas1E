@@ -2,7 +2,8 @@ body{
     padding: 0;
     margin: 0;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.905);
+    background: linear-gradient(150deg, #0000ff, #ff0000);
+    background-repeat: no-repeat;
 }
 
 .criadorSaiba{
@@ -10,21 +11,30 @@ body{
     padding-top: 15px;
 }
 
-header{ 
-    display: flex;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(0, 17, 255);
+.botao{
+    transition: 0.5s;
+    border-radius: 100px;
+    background-color: #ffffffc4;
 }
 
-.logoGerminaFlix{   
-    width: 30px;
-    height: 30px;
-    padding-top: 10px;
+.botao:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    
 }
+
+.headers{ 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-self: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
 a{
-    text-decoration: none;
     color: black;
 }
 
@@ -40,31 +50,64 @@ a{
     border: 1px solid black;
 }
 
-
 .nome{
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: rgb(0, 0, 0);
 }
 
- .curiosidades{
-    color: rgb(0, 0, 0);
-    padding-left: 10px;
- }
+
 
  .geral{
-    justify-self: center;
     color: rgb(0, 0, 0);
  }
 
  .c2{
     padding-top: 20px;
-    padding-left: 510px;
-    color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-.listaUn{
-    padding-right: 200px;
+.disney{
+    height: 170px;
 }
-.listaOrd{
-    padding-right: 330px;
+
+.londres{
+    height: 180px;
+    padding-left: 240px;
+}
+
+
+.jfui{
+    padding-left: 210px;
+    padding-top: 10px;
+}
+
+.qrIr{
+    padding-top: 20px;
+}
+
+
+
+.total{
+    width: 760px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+    margin: 40px auto;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    display: flex;
+    transition: 0.3s;
+}
+
+.total:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+
+footer{
+    justify-self: center;
+    color: white;
+    padding-bottom: 10px;
 }

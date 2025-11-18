@@ -65,3 +65,10 @@ h1{
     display: flex;
     justify-self: center;
 }
+
+
+footer{
+    justify-self: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
